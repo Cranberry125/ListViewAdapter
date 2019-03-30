@@ -282,8 +282,8 @@ public class AlertDialog extends Dialog {
 
 
 ```
-![弹出对话框](https://i.loli.net/2019/03/30/5c9f76b1c89aa.jpg)
 
+![弹出对话框](https://i.loli.net/2019/03/30/5c9f7695793ae.jpg)
 
 
 
