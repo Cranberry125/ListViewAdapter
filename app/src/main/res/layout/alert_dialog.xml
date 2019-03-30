@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/alertlayout"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="#FFFAF0"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:background="@drawable/header_logo"
+            android:baselineAlignBottom="true" />
+
+        <LinearLayout
+            android:id="@+id/ll_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+           >
+
+            <EditText
+                android:id="@+id/enditusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <EditText
+                android:id="@+id/editpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_cancle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Cancle" />
+            <Button
+                android:id="@+id/btn_signin"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="Sign in" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
